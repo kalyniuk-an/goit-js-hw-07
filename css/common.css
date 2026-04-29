@@ -12,3 +12,53 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+h2, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 24px auto;
+  max-width: 392px;
+}
+
+#categories .item {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+#categories .item h2 {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
+
+#categories .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#categories .item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
