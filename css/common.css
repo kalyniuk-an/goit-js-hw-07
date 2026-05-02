@@ -22,7 +22,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+/*#region task-1*/
 #categories {
   display: flex;
   flex-direction: column;
@@ -62,3 +62,28 @@ ul {
   letter-spacing: 0.04em;
   color: #2E2F42;
 }
+/*#endegion task-1*/
+
+/*#region task-2*/
+.gallery {
+/* flex-direction: row; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 24px;
+  column-gap: 48px;
+  margin: 100px auto;
+  max-width: 1440px;
+}
+
+.gallery .item {
+  width: 360px;
+  height: 300px;
+}
+
+.gallery .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/*#endegion task-2*/
