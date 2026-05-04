@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
 }
 
-h2, p {
+h1, h2, p {
   margin: 0;
 }
 
@@ -87,3 +87,32 @@ ul {
   object-fit: contain;
 }
 /*#endegion task-2*/
+
+/*#region task-3*/
+#name-input {
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+
+  /* padding: 8px 16px; */
+  margin-top: 24px;
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-weight: 400;
+}
+
+#name-output  {
+ 
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 10px auto 16px;
+}
+/*#endregion task-3*/
