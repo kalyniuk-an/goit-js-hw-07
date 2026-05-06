@@ -123,7 +123,7 @@ ul {
   flex-direction: column;
   /* gap: 12px; */
   max-width: 408px;
-  margin: 24px
+  margin: 24px;
 }
 
 .login-form label {
@@ -150,6 +150,12 @@ ul {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+
+  transition: border-color 250ms ease-in-out;
+}
+
+.login-form input :hover {
+  border: 1px solid #000;
 }
 
 .login-form button {
@@ -168,5 +174,42 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+
+  transition: background 250ms ease-in-out;
 }
-/*#endegion task-4*/
+
+.login-form button:hover {
+  background: #6c8cff;
+}
+/*#endregion task-4*/
+
+/*#region task-5*/
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+  padding: 100px 88px;
+}
+.change-color {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: background 250ms ease-in-out;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
+/*endregion task-5*/
